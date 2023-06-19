@@ -1,0 +1,14 @@
+.footer {
+  width: 100vw;
+  height: 8vh;
+  border: 2px solid #0f1a31;
+  background-color: #0f1a31;
+  border-bottom: #0f1a31;
+  border-left: #0f1a31;
+}
+
+.footer-inner {
+  color: white;
+  text-align: center;
+  width: 100%;
+}

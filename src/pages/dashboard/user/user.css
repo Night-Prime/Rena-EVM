@@ -1,0 +1,105 @@
+.user {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.user header {
+  border-bottom: 2px solid #00000b82;
+}
+
+.user header .inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid transparent;
+  width: 90%;
+}
+
+.user header .inner button {
+  height: 32px;
+  padding: 16px auto;
+  border-radius: 20px;
+  background-color: green;
+  color: white;
+  border: 2px solid #00000b;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.user header .inner button:hover {
+  background-color: white;
+  color: green;
+}
+
+.user header h1 {
+  padding: 0 12px;
+}
+
+.user-container {
+  width: 100%;
+  height: 100%;
+}
+
+.user-container main {
+  height: 100%;
+  padding: 12px auto;
+  display: grid;
+}
+
+.user .top-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.user .bottom {
+  margin-top: 3.5rem;
+}
+
+.user form {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.user form label {
+  font-size: 18px;
+}
+
+.user form label input {
+  margin-left: 0.5rem;
+  width: 450px;
+  height: 4vh;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+  border: 2.5px solid #00000b;
+  padding: 10px auto;
+}
+
+.user form label select {
+  width: 400px;
+  height: 5vh;
+  margin-left: 0.5rem;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+  border: 2.5px solid #00000b;
+}
+
+.form-btn {
+  width: 200px;
+  height: 4vh;
+  background-color: #00000b;
+  border-radius: 20px;
+  cursor: pointer;
+}

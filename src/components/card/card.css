@@ -1,0 +1,38 @@
+.card {
+  width: 225px;
+  height: 125px;
+  background-color: transparent;
+  border: 2px solid #00000b82;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 5px 5px 5px #00000b10;
+  margin-right: 1.25rem;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: #00000b;
+  color: green;
+}
+
+.card-container {
+  /* padding: 0.5rem; */
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  align-items: center;
+}
+
+.card-container h3,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex: 30%;
+  margin: 0 auto;
+}
